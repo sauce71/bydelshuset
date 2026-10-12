@@ -1,4 +1,4 @@
-# Elektronikkurs - Bydelshuset på Lie - Vår 2025
+# Elektronik/IOT kurs - Bydelshuset på Gråtamoen - Høst 2026
 Kursholder: Tom Øyvind Hogstad (915 67 370) - tom.oyvind.hogstad@gmail.com
 ### Programvare
 [Thonny, Python IDE for beginners](https://thonny.org/)
