@@ -22,17 +22,15 @@ while True:
     
     # Bruker en f-string
     tid = time.localtime()
-    ts = f'{tid[0]}-{tid[1]:02}-{tid[3]:02}T{tid[4]:02}:{tid[5]:02}'
+    ts = f'{tid[0]}-{tid[1]:02}-{tid[2]:02}T{tid[3]:02}:{tid[4]:02}:{tid[5]:02}'
     
     s = f'{ts} Temperatur: {avg_temp:.2f}C Luftfuktighet: {humidity:.2f}% Trykk: {values[1]}'
     print(s)
     
-    """
     # Skriver data til en fil
     sd = f'{ts};{avg_temp};{humidity};{values[1]}\n'
     f = open('data.csv', 'a')
     f.write(sd)
     f.close()
-    """
 
     time.sleep(2)
